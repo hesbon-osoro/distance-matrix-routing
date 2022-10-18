@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
-import useGeolocation from 'react-hook-geolocation';
 import * as tt from '@tomtom-international/web-sdk-maps';
 import * as ttapi from '@tomtom-international/web-sdk-services';
 import '@tomtom-international/web-sdk-maps/dist/maps.css';
 import './App.css';
+// import useGeolocation from 'react-hook-geolocation';
 
 const App = () => {
-  const { latitude: initialLatitude, longitude: initialLongitude } =
-    useGeolocation();
-  console.log(initialLatitude, initialLongitude);
+  // const { latitude: initialLatitude, longitude: initialLongitude } =
+  //   useGeolocation();
+  // console.log(initialLatitude, initialLongitude);
   const mapElement = useRef();
   const [map, setMap] = useState({});
   const [longitude, setLongitude] = useState(/*initialLongitude ||*/ 36.823537);
