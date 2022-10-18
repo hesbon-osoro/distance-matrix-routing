@@ -1,8 +1,8 @@
 # Distance Matrix Routing
 
-[![Map](assets/distance-matrix-routing.png)](https://distance-matrix-routing-map.netlify.app/)
+[![Map juja](assets/distance-matrix-routing.png)](https://distance-matrix-routing-map.netlify.app/)
 
-[![Map](assets/distance-matrix-routing-1.png)](https://distance-matrix-routing-map.netlify.app/)
+[![Map nairobi](assets/distance-matrix-routing-1.png)](https://distance-matrix-routing-map.netlify.app/)
 
 Have you ever wanted to build a delivery app that will calculate the shortest distance from each drop off spot?
 
